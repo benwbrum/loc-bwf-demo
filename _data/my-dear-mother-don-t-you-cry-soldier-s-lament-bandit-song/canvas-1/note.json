@@ -1,0 +1,29 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://benwbrum.github.io/loc-bwf-demo/my-dear-mother-don-t-you-cry-soldier-s-lament-bandit-song/canvas-1/canvas/note.json",
+  "type": "AnnotationPage",
+  "label": "Note",
+  "items": [
+    {
+      "@context": "http://www.w3.org/ns/anno.jsonld",
+      "id": "https://benwbrum.github.io/loc-bwf-demo/my-dear-mother-don-t-you-cry-soldier-s-lament-bandit-song/canvas-1/canvas/note-annotation-0.json",
+      "type": "Annotation",
+      "motivation": [
+        "supplementing",
+        "commenting"
+      ],
+      "body": {
+        "type": "TextualBody",
+        "value": "Original recording is in poor condition.",
+        "format": "text/plain"
+      },
+      "target": {
+        "source": "https://benwbrum.github.io/loc-bwf-demo/my-dear-mother-don-t-you-cry-soldier-s-lament-bandit-song/canvas-1/canvas",
+        "selector": {
+          "type": "RangeSelector",
+          "t": "10.0,269.0"
+        }
+      }
+    }
+  ]
+}
